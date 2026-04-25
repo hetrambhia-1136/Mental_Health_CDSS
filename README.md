@@ -13,7 +13,7 @@ GitHub: https://github.com/hetrambhia-1136
 
 ## 🚀 Live Demo
 
-👉https://lnkd.in/deHMKKyR
+👉https://mental-health-cdss.onrender.com/
 
 ---
 
