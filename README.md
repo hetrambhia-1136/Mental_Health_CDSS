@@ -1,135 +1,105 @@
-# AI Mental Health CDSS
+# 🧠 AI Mental Health CDSS
 
-AI-based Clinical Decision Support System (CDSS) that predicts mental health conditions using Machine Learning and provides professional lifestyle recommendations with downloadable clinical report.
-
----
-
-## Live Demo
-https://ai-mental-health-cdss.onrender.com
+A web-based **Clinical Decision Support System (CDSS)** that predicts mental health conditions using Machine Learning and provides personalized insights along with a downloadable report.
 
 ---
 
-## Overview
+## 👨‍💻 Developed by
 
-This project uses Machine Learning to analyze lifestyle and behavioral parameters such as sleep patterns, stress levels, work hours, social interaction and screen exposure to predict possible mental health conditions.
-
-The system generates:
-
-• AI prediction result  
-• Clinical explanation  
-• Lifestyle insights  
-• Graph visualization  
-• Downloadable PDF report  
+**Het Rambhia**
+GitHub: https://github.com/hetrambhia-1136
 
 ---
 
-## Features
+## 🚀 Live Demo
 
-AI-powered mental health prediction  
-Professional UI design  
-Graph visualization of lifestyle parameters  
-PDF clinical report generation  
-Flask-based web application  
-Real-time prediction system  
-Deployed on cloud (Render)
+👉https://lnkd.in/deHMKKyR
 
 ---
 
-## Technologies Used
+## 📌 Features
 
-Python  
-Machine Learning  
-Flask  
-Scikit-learn  
-Pandas  
-Matplotlib  
-ReportLab  
-HTML CSS  
+* 🧠 Predicts mental health conditions (Stress, Anxiety, Depression, Healthy)
+* 📊 Uses Machine Learning (Random Forest Classifier)
+* 📈 Visualizes lifestyle factors using graphs
+* 📄 Generates downloadable PDF report
+* 🌐 User-friendly web interface
 
 ---
 
-## Input Parameters
+## 🛠️ Tech Stack
 
-Age  
-Sleep Hours  
-Stress Level  
-Exercise Level  
-Work Hours  
-Screen Time  
-Social Interaction Score  
-
----
-
-## Output
-
-Prediction Categories:
-
-Healthy  
-Stress  
-Anxiety  
-Depression  
-
-Includes:
-
-Clinical interpretation  
-Lifestyle recommendations  
-Graph report  
-Downloadable PDF  
+* **Frontend:** HTML, CSS
+* **Backend:** Python (Flask)
+* **Machine Learning:** Scikit-learn
+* **Data Processing:** Pandas, NumPy
+* **Visualization:** Matplotlib
+* **PDF Generation:** ReportLab
 
 ---
 
-## Installation (Local Setup)
+## 📂 Project Structure
 
-Clone repository:
+```
+mental_health/
+│── templates/        # HTML files
+│── static/           # CSS, images, graphs
+│── app.py            # Main Flask application
+│── requirements.txt  # Dependencies
+│── README.md
+```
 
-git clone https://github.com/MrAryanShah/ai-mental-health-cdss.git
+---
 
-Install dependencies:
+## ⚙️ Installation & Setup
 
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/hetrambhia-1136/Mental_Health_CDSS.git
+cd Mental_Health_CDSS
+```
+
+### 2. Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-Run application:
+### 3. Run the application
 
+```bash
 python app.py
+```
 
-Open browser:
+### 4. Open in browser
 
-http://127.0.0.1:5050
-
----
-
-## Project Structure
-
-ai-mental-health-cdss  
-│  
-├── app.py  
-├── model.py  
-├── requirements.txt  
-│  
-├── templates  
-│      └── index.html  
-│  
-├── static  
-│      └── graph.png  
+```
+http://127.0.0.1:5000/
+```
 
 ---
 
-## Future Improvements
+## 📊 How it works
 
-Deep learning integration  
-User authentication system  
-Doctor dashboard  
-Database integration  
-Mobile responsive UI  
+* User inputs lifestyle data (sleep, stress, work, etc.)
+* Data is processed using a trained ML model
+* Model predicts mental health condition
+* System provides:
 
----
-
-## Author
-
-Aryan Shah
+  * Prediction
+  * Explanation
+  * Graph visualization
+  * Downloadable PDF report
 
 ---
 
-## License
+## 📌 Note
 
-MIT License
+This project is for **educational purposes only** and not a substitute for professional medical advice.
+
+---
+
+## ⭐ Show your support
+
+If you like this project, consider giving it a ⭐ on GitHub!
